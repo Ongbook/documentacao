@@ -7,26 +7,16 @@ Como o nome já diz, _Ongbook_, Livro de ONGs. Um catálogo digital de Entidades
 
 Existe uma carência quando se trata de pessoas com perfil solidário, em manter-se atualizadas e em constante interação com causas e necessidades presentes no dia a dia de Entidades que trabalham para suprir problemas sociais em geral. Também vislumbramos a possibilidade de ajudar essas instituições do terceiro setor, oferecendo uma plataforma online.
 
-
-
 ## Objetivos
 
 ### Do resultado
-Cadastrar e listar entidades filantrópicas e suas necessidades; 
-Suprí-las através da interação social; 
-Promover voluntariado e incentivar solidariedade;
-Possiblitando que mais pessoas sejam amparadas.
+- Cadastrar e listar entidades filantrópicas e suas necessidades;
+- Suprí-las através da interação social;
+- Promover voluntariado e incentivar solidariedade;
+- Possiblitando que mais pessoas sejam amparadas.
 
-### Do provesso
-Produzir software de qualidade;
-Implantar metodologias ágeis nos processos;
-Gerenciar Ciclo de Vida da Aplicação (ALM);
-Entregar valor (funcionalidades) conforme o conograma.
-
-## Restrições
-
-Plataforma deverá ser aberta à comunidade de desenvolvedores de softwares no GIT;
-A plataforma deverá ser um SAAS, em constante evolução;
-Desenvolvimento da plataforma/ferramenta será com linguagens de programação livres;
-Utilização de TDD - Desenvolvimento Dirigido a Testes;
-Ferramenta para ALM
+### Do processo
+- Produzir software de qualidade;
+- Implantar metodologias ágeis nos processos;
+- Gerenciar Ciclo de Vida da Aplicação (ALM);
+- Entregar valor (funcionalidades) conforme o conograma.
