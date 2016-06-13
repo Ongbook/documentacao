@@ -1,12 +1,13 @@
-# Descrição o projeto
-Como o nome já diz, _Ongbook_, Livro de ONGs. Um catálogo digital de entidades filantrópicas, onde as necessidades destas Entidades serão objetos da aplicação, as quais poderão ser listadas por diferentes filtros (localização, área de atuação, por classificação dos usuários entre outros).
+# Descrição do projeto
+Como o nome já diz, _Ongbook_, Livro de ONGs. Um catálogo digital de Entidades filantrópicas. Essas Entidades poderão cadastrar suas necessidades, que por ventura venham surgir: bens materiais :jeans:, mão de obra (trabalho voluntariado :muscle:) e de recursos financeiros (doação :moneybag:). Necessidades serão objetos da aplicação, as quais poderão ser listadas por diferentes filtros (localização pela região, área de atuação, proximidades, entre outros).
 
-A ferramenta possibilita a Entidade cadastrar suas necessidades, que por ventura venham surgir: bens materiais :jeans:, mão de obra (trabalho voluntariado :muscle:) e recursos financeiros (doação :moneybag:). A aplicação será especializada em levar essas informações (_necessidades_) ao seu público-alvo (_usuários, pessoas físicas com perfis solidários_), com o objetivo de supri-las. Unindo solidários com necessitados.
+ A aplicação é especializada em levar essas informações (_necessidades_) ao seu público-alvo (_usuários, pessoas físicas com perfis solidários_), com o objetivo de supri-las. Unindo solidários com necessitados.
 
-## Visão do Geral do Projeto
+## Visão geral
 
-Aos nos deparamos com a falta de informações sobre as dificuldades enfrentadas por entidades que trabalham para suprir problemas sociais em geral, vislumbramos a possibilidade de ajudar diversas instituições do terceiro setor, oferecendo uma plataforma online (SAAS).
-A ferramenta possibilitará as Entidades cadastrarem suas necessidades, que por ventura venham surgir, sendo ela: financeira (doação R$), mão de obra (voluntariado), ou um determinado bem material. O Ongbook será especializado em levar essas informações (necessidades) ao seu publico-alvo (perfis solidários que se identifiquem com essas causas) a fim de supri-las. Todas ações solidárias poderão ser compartilhadas em suas redes sociais (facebook, linkedin, Google+ e Twitter).
+Existe uma carência quando se trata de pessoas com perfil solidário, em manter-se atualizadas e em constante interação com causas e necessidades presentes no dia a dia de Entidades que trabalham para suprir problemas sociais em geral. Também vislumbramos a possibilidade de ajudar essas instituições do terceiro setor, oferecendo uma plataforma online.
+
+
 
 ## Objetivos
 
