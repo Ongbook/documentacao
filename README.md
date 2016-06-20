@@ -37,9 +37,9 @@ Existe uma carência quando se trata de pessoas com perfil solidário, em manter
 #### Do processo
 - Produzir software com qualidade, junto com a comunidade;
 - Implantar metodologias ágeis nos processos e fazer o simples e necessário - **<a href="http://gettingreal.37signals.com/GR_por.php" target="_blank">Getting Real</a>**;
-- Gerenciar Ciclo de Vida da Aplicação, da concepção dos requisitos ao deploy;
+- Gerenciar ciclo de vida da aplicação, da concepção dos requisitos ao deploy;
 - Entregar valor (funcionalidades) em cilcos, testando as hipóteses junto ao publico usuário (De um lado, os coordenadores de Entidades Sociais, no outro, usuários solidários).
-- O mais importante é uma comunicação clara, rica e colaborativa entre os integrantes da equipe. Seguindo os princípios do [Manifesto Ágil](http://www.agilemanifesto.org/iso/ptbr/): *Os processos ágeis promovem desenvolvimento sustentável*.
+- O mais importante é uma comunicação clara, rica e colaborativa entre os integrantes da equipe, stakeholders, comunidade e usuários. Seguindo os princípios do [Manifesto Ágil](http://www.agilemanifesto.org/iso/ptbr/): *"Os processos ágeis promovem desenvolvimento sustentável"*.
 
 **[⬆ volte ao topo](#topo)**
 
@@ -78,7 +78,8 @@ RFN09 | Devem ser elaborados artefatos e documentos necessários para melhor com
 RFN10 | A documentação dos requisitos deve acompanhar os ciclos de desenvolvimento de software (Sprints). Para servir de apoio aos integrantes da equipe, stakeholders e comunidade
 #### Externos
 ##### Econômicos
-Os requisitos funcionais descrevem as ações do sistema, isto é, as funções necessárias para alcançar os objetivos do sistema.
+ID | Descrição
+------------ | -------------
 RFN11 | A aplicação não deve exigir muito dos recursos (processamento e memória) dos diversos dispositivos nos quais esteja sendo executado. (Browsers PC e mobiles, Smart TVs, app nativos iOS, Android e Win mobile)
 ##### Legais
 ID | Descrição
