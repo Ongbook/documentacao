@@ -78,8 +78,7 @@ RFN09 | Devem ser elaborados artefatos e documentos necessários para melhor com
 RFN10 | A documentação dos requisitos deve acompanhar os ciclos de desenvolvimento de software (Sprints). Para servir de apoio aos integrantes da equipe, stakeholders e comunidade
 #### Externos
 ##### Econômicos
-ID | Descrição
------------- | -------------
+Os requisitos funcionais descrevem as ações do sistema, isto é, as funções necessárias para alcançar os objetivos do sistema.
 RFN11 | A aplicação não deve exigir muito dos recursos (processamento e memória) dos diversos dispositivos nos quais esteja sendo executado. (Browsers PC e mobiles, Smart TVs, app nativos iOS, Android e Win mobile)
 ##### Legais
 ID | Descrição
@@ -87,4 +86,13 @@ ID | Descrição
 RFN12 | Antes do cadastro na aplicação os usuários deverão ter disponível o **Termo de cadastro de Entidades Sociais** e **Política de Privacidade de Usuários**, a fim de garantir a responsabilidade dos mesmos com as ações realizadas na aplicação
 
 ### Funcionais
+Os requisitos funcionais descrevem as ações do sistema, isto é, as funções necessárias para alcançar os objetivos do sistema.
+#### 1º Sprint
+ID | Nome | Prioridade
+------------ | ------------- | -------------
+RF-1 | Cadastrar Entidade Social | Essencial
+RF-2 | Atualizar dados do perfil da Entidade Social | Essencial
+RF-3 | Desabilitar, nunca excluir Entidade Social | Essencial
+RF-4 | Listar Entidades Sociais por filtros | Essencial
+RF-5 | Visualizar perfil da Entidade Social na íntegra | Essencial
 **[⬆ volte ao topo](#topo)**
