@@ -3,15 +3,15 @@ Criação social é o futuro da indústria, ainda mais quando se trata da nossa,
 
 >Por definição, o <a href="https://pt.wikipedia.org/wiki/Crowdsourcing" target="_blank">crowdsourcing</a> combina os esforços de voluntários identificados ou de trabalhadores em tempo parcial, num ambiente onde cada colaborador, por sua própria iniciativa, adiciona uma pequena parte para gerar um resultado maior.
 
-Nossa documentação está disponível para os interessados acompanhar e participar. Sua evolução será gerenciada através deste repositório(AQUI memo!). 
+Nossa documentação está aberta para acompanharem e participarem. Sua evolução será gerenciada através deste repositório (aqui mesmo!). Mais informações sobre o desenvolvimento do projeto estão disponíveis em [Ongbook.org](http://ongbook.org). 
 
 ## <a name="topo"></a>Conteúdos
 
 1. [Descrição do projeto](#descricao-do-projeto)
     * [Visão geral](#visao-geral)
     * [Objetivos](#objetivos)
-2. [Projeto de Mini Mundo](#projeto-de-mini-mundo)
-3. [Documento de requisitos](documento-de-requisitos)
+    * [Mini Mundo](#projeto-de-mini-mundo)
+1. [Documento de requisitos](documento-de-requisitos)
 
 * Documentação do back-end - **<a href="https://github.com/Ongbook/api-nodejs" target="_blank">api-nodejs</a>**
 * Documentação do front-end - **<a href="https://github.com/Ongbook/consummer-angularjs" target="_blank">consummer-angularjs</a>**
@@ -39,15 +39,52 @@ Existe uma carência quando se trata de pessoas com perfil solidário, em manter
 - Implantar metodologias ágeis nos processos e fazer o simples e necessário - **<a href="http://gettingreal.37signals.com/GR_por.php" target="_blank">Getting Real</a>**;
 - Gerenciar Ciclo de Vida da Aplicação, da concepção dos requisitos ao deploy;
 - Entregar valor (funcionalidades) em cilcos, testando as hipóteses junto ao publico usuário (De um lado, os coordenadores de Entidades Sociais, no outro, usuários solidários).
+- O mais importante é uma comunicação clara, rica e colaborativa entre os integrantes da equipe. Seguindo os princípios do [Manifesto Ágil](http://www.agilemanifesto.org/iso/ptbr/): *Os processos ágeis promovem desenvolvimento sustentável*.
 
 **[⬆ volte ao topo](#topo)**
 
-## Projeto de Mini Mundo
+#### Projeto de Mini Mundo
 [DESCRIÇÃO]
 
 **[⬆ volte ao topo](#topo)**
 
-## Documento de Requisitos
-[DESCRIÇÃO]
+## Requisitos
+### Não funcionais
+Requisitos que não correspondem de fato a uma funcionalidade da aplicação. Tais requisitos foram divididos em três tipos:
+#### De produto
+ID | Descrição
+------------ | -------------
+RNF01 | Deve ser desenvolvido no modelo arquitetural RESTful¹. Separando back-end (API oferecendo recursos via JSON) e front-end, consumindo esses recursos. Que também serão expostos para terceiros
+RNF02 | Deve ser implementado com Stack MEAN (MongoDB, Express js, Angular js, Node js)
+RNF03 | Hospedado em ambiente Nginx em instancia Linux
+##### Usabilidade
+ID | Descrição
+------------ | -------------
+RNF04 | Permitir ao usuário facilidades de uso, com uma interface gráfica intuitiva, garantindo que todas as funcionalidades estejam facilmente acessíveis. E evolua dinamicamente conforme a experiência do usuário (UX). Em browsers, smartphones e smart TVs
+##### Segurança
+ID | Descrição
+------------ | -------------
+RNF05 | Configuração de HTTPS, para manter um tráfego encriptado com SSL/TLS
+RNF06 | Implementar autenticação OAuth2 para requisições
+#### De processo
+ID | Descrição
+------------ | -------------
+RNF07 | Código fonte versionado com Git, exposto em repositórios no Github
+RFN08 | Uso de TDD - Desenvolvimento Dirigido a Testes, automatizados. E implementação de ferramentas de integração contínua
+##### Documentação
+ID | Descrição
+------------ | -------------
+RFN09 | Devem ser elaborados artefatos e documentos necessários para melhor compreensão dos requisitos descritos. serão elaborados antes do ciclo de desenvolvimento e devem estar abertos a participação pública* na internet
+RFN10 | A documentação dos requisitos deve acompanhar os ciclos de desenvolvimento de software (Sprints). Para servir de apoio aos integrantes da equipe, stakeholders e comunidade
+#### Externos
+##### Econômicos
+ID | Descrição
+------------ | -------------
+RFN11 | A aplicação não deve exigir muito dos recursos (processamento e memória) dos diversos dispositivos nos quais esteja sendo executado. (Browsers PC e mobiles, Smart TVs, app nativos iOS, Android e Win mobile)
+##### Legais
+ID | Descrição
+------------ | -------------
+RFN12 | Antes do cadastro na aplicação os usuários deverão ter disponível o **Termo de cadastro de Entidades Sociais** e **Política de Privacidade de Usuários**, a fim de garantir a responsabilidade dos mesmos com as ações realizadas na aplicação
 
+### Funcionais
 **[⬆ volte ao topo](#topo)**
