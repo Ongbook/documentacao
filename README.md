@@ -1,9 +1,9 @@
 # Ongbook.org - Catálogo de Entidades Sociais e suas Necessidades
-Criação social é o futuro da indústria, ainda mais quando se trata da nossa, a de software: bem-vindo à era das multidões! Bem-vindo à era do crowdsourcing!
+Criação social é o futuro da indústria, ainda mais quando se trata da nossa, a de software: _bem-vindo à era das multidões! Bem-vindo à era do crowdsourcing!_ ```[Endeveavor](https://endeavor.org.br/crowdsourcing/)```
 
->Por definição, o <a href="https://pt.wikipedia.org/wiki/Crowdsourcing" target="_blank">crowdsourcing</a> combina os esforços de voluntários identificados ou de trabalhadores em tempo parcial, num ambiente onde cada colaborador, por sua própria iniciativa, adiciona uma pequena parte para gerar um resultado maior.
-
-Nossa documentação está aberta para acompanharem e participarem. Sua evolução será gerenciada através deste repositório (aqui mesmo!). Mais informações sobre o desenvolvimento do projeto estão disponíveis em [Ongbook.org](http://ongbook.org). 
+>Por definição, o [crowdsourcing](https://pt.wikipedia.org/wiki/Crowdsourcing) combina os esforços de voluntários identificados ou de trabalhadores em tempo parcial, num ambiente onde cada colaborador, por sua própria iniciativa, adiciona uma pequena parte para gerar um resultado maior.
+    
+Nossa documentação está aberta para acompanharem e participarem. Sua evolução será gerenciada através deste repositório (aqui mesmo!). Mais informações sobre o desenvolvimento do projeto estão disponíveis em [Ongbook.org](http://central.ongbook.org). 
 
 ## <a name="topo"></a>Conteúdos
 
