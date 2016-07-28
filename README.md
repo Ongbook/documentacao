@@ -97,7 +97,7 @@ RF-3 | Desabilitar, nunca excluir Entidade Social | Essencial
 RF-4 | Listar Entidades Sociais por filtros | Essencial
 RF-5 | Visualizar perfil da Entidade Social na íntegra | Essencial
 **[⬆ volte ao topo](#topo)**
-##### Caso de uso do 1º Sprint
-![Alt text](/img/uc_sprint1.jpg)
-
+##### Caso de Uso do 1º Sprint
+![Sprint 1](uc_sprint1.png)
+**[⬆ volte ao topo](#topo)**
 
