@@ -1,5 +1,5 @@
 # Ongbook.org - Catálogo de Entidades Sociais e suas Necessidades
-Criação social é o futuro da indústria, ainda mais quando se trata da nossa, a de software: _bem-vindo à era das multidões! Bem-vindo à era do crowdsourcing!_ ```[Endeveavor](https://endeavor.org.br/crowdsourcing/)```
+Criação social é o futuro da indústria, ainda mais quando se trata da nossa, a de software: _"bem-vindo à era das multidões! Bem-vindo à era do crowdsourcing!"_ [Endeveavor](https://endeavor.org.br/crowdsourcing/)
 
 >Por definição, o [crowdsourcing](https://pt.wikipedia.org/wiki/Crowdsourcing) combina os esforços de voluntários identificados ou de trabalhadores em tempo parcial, num ambiente onde cada colaborador, por sua própria iniciativa, adiciona uma pequena parte para gerar um resultado maior.
     
@@ -97,3 +97,7 @@ RF-3 | Desabilitar, nunca excluir Entidade Social | Essencial
 RF-4 | Listar Entidades Sociais por filtros | Essencial
 RF-5 | Visualizar perfil da Entidade Social na íntegra | Essencial
 **[⬆ volte ao topo](#topo)**
+##### Caso de uso do 1º Sprint
+![Alt text](/img/uc_sprint1.jpg)
+
+
