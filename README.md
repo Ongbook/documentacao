@@ -5,17 +5,17 @@ Criação social é o futuro da indústria, ainda mais quando se trata da nossa,
     
 Nossa documentação está aberta para acompanharem e participarem. Sua evolução será gerenciada através deste repositório (aqui mesmo!). Mais informações sobre o desenvolvimento do projeto estão disponíveis em [Ongbook.org](http://central.ongbook.org). 
 
-## Conteúdo
+## Conteudo
 
-1. [Descrição do projeto](#Descrição do projeto)
-    * [Visão geral](#Visão geral)
-    * [Objetivos](#Objetivos)
+1. [Descrição do projeto](#descricao-do-projeto)
+    * [Visão geral](#visao-geral)
+    * [Objetivos](#objetivos)
 1. [Mini Mundo](#projeto-de-mini-mundo)
 1. Documento de requisitos
     * Sprint 1
         - [RNF](#requisitos) - Não Funcionais
         - [RF](#funcionais) - Funcionais
-            - [UC](#caso-de-uso-do-1º-Sprint) - Casos de uso
+            - [UC](#uc-sp1) - Casos de uso
             - [MER](#modelo-de-entidade-e-relacionamento) - Modelo de entidade e relacionamento
 
 ### Externos
@@ -24,12 +24,12 @@ Nossa documentação está aberta para acompanharem e participarem. Sua evoluç�
 * Documentação do front-end - **[consummer-angularjs](https://github.com/Ongbook/consummer-angularjs)**
 * Apresentação da iniciativa na **[Wiki](https://github.com/Ongbook/documentacao/wiki)** (Associação, equipe, entre outros)
 
-## Descrição do projeto
+## Descricao do projeto
 Como o nome já diz, _Ongbook_, Livro de ONGs. Um catálogo digital de Entidades filantrópicas. Essas Entidades poderão cadastrar suas necessidades, que por ventura venham surgir: bens materiais :jeans:, mão de obra (trabalho voluntariado :muscle:) e de recursos financeiros (doação :moneybag:). Necessidades serão objetos da aplicação, as quais poderão ser listadas por diferentes filtros (localização pela região, área de atuação, proximidades, entre outros).
 
 A aplicação é especializada em levar essas informações (_necessidades_) ao seu público-alvo (_usuários, pessoas físicas com perfis solidários_), com o objetivo de supri-las. Unindo solidários com necessitados.
 
-### Visão geral
+### Visao geral
 
 Existe uma carência quando se trata de pessoas com perfil solidário, em manter-se atualizadas e em constante interação com causas e necessidades presentes no dia a dia de Entidades que trabalham para suprir problemas sociais em geral. Também vislumbramos a possibilidade de ajudar essas instituições do terceiro setor, oferecendo uma plataforma online.
 
@@ -116,9 +116,10 @@ RF-4 | Listar Entidades Sociais por filtros | Essencial
 RF-5 | Visualizar perfil da Entidade Social na íntegra | Essencial
 **[⬆ volte ao topo](#conteudo)**
 
-##### Caso de Uso do 1º Sprint
+##### <a name="uc-sp1"></a>Caso de Uso do 1º Sprint
 ![uc - Sprint 1](img/uc/uc_sprint1.png)
 **[⬆ volte ao topo](#conteudo)**
 
+##### Modelo de entidade e relacionamento
 ![mer - Sprint 1](img/mer/mer_sprint1.png)
 **[⬆ volte ao topo](#conteudo)**
