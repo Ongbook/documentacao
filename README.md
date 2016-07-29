@@ -5,17 +5,18 @@ Criação social é o futuro da indústria, ainda mais quando se trata da nossa,
     
 Nossa documentação está aberta para acompanharem e participarem. Sua evolução será gerenciada através deste repositório (aqui mesmo!). Mais informações sobre o desenvolvimento do projeto estão disponíveis em [Ongbook.org](http://central.ongbook.org). 
 
-## Conteúdos
+## Conteúdo
 
 1. [Descrição do projeto](#Descrição do projeto)
     * [Visão geral](#Visão geral)
     * [Objetivos](#Objetivos)
 1. [Mini Mundo](#projeto-de-mini-mundo)
 1. Documento de requisitos
-    * RNF - [Não Funcionais](#Requisitos)
-    * RF - [Funcionais](#Funcionais)
-        * UC - [Casos de uso](#Caso de Uso do 1º Sprint)
-        * MER - [Modelo de entidade e relacionamento]
+    * Sprint 1
+        - [RNF](#requisitos) - Não Funcionais
+        - [RF](#funcionais) - Funcionais
+            - [UC](#caso-de-uso-do-1º-Sprint) - Casos de uso
+            - [MER](#modelo-de-entidade-e-relacionamento) - Modelo de entidade e relacionamento
 
 ### Externos
 
@@ -47,53 +48,64 @@ Existe uma carência quando se trata de pessoas com perfil solidário, em manter
 - Entregar valor (funcionalidades) em cilcos, testando as hipóteses junto ao publico usuário (De um lado, os coordenadores de Entidades Sociais, no outro, usuários solidários).
 - O mais importante é uma comunicação clara, rica e colaborativa entre os integrantes da equipe, stakeholders, comunidade e usuários. Seguindo os princípios do [Manifesto Ágil](http://www.agilemanifesto.org/iso/ptbr/): *"Os processos ágeis promovem desenvolvimento sustentável"*.
 
-**[⬆ volte ao topo](#Conteúdos)**
+**[⬆ volte ao topo](#conteudo)**
 
 #### Projeto de Mini Mundo
 [DESCRIÇÃO]
 
-**[⬆ volte ao topo](#Conteúdos)**
+**[⬆ volte ao topo](#conteudo)**
 
 ## Requisitos
+
 ### Não funcionais
 Requisitos que não correspondem de fato a uma funcionalidade da aplicação. Tais requisitos foram divididos em três tipos:
+
 #### De produto
 ID | Descrição
 ------------ | -------------
 RNF01 | Deve ser desenvolvido no modelo arquitetural RESTful¹. Separando back-end (API oferecendo recursos via JSON) e front-end, consumindo esses recursos. Que também serão expostos para terceiros
 RNF02 | Deve ser implementado com Stack MEAN (MongoDB, Express js, Angular js, Node js)
 RNF03 | Hospedado em ambiente Nginx em instancia Linux
+
 ##### Usabilidade
 ID | Descrição
 ------------ | -------------
 RNF04 | Permitir ao usuário facilidades de uso, com uma interface gráfica intuitiva, garantindo que todas as funcionalidades estejam facilmente acessíveis. E evolua dinamicamente conforme a experiência do usuário (UX). Em browsers, smartphones e smart TVs
+
 ##### Segurança
 ID | Descrição
 ------------ | -------------
 RNF05 | Configuração de HTTPS, para manter um tráfego encriptado com SSL/TLS
 RNF06 | Implementar autenticação OAuth2 para requisições
+
 ##### De processo
 ID | Descrição
 ------------ | -------------
 RNF07 | Código fonte versionado com Git, exposto em repositórios no Github
 RFN08 | Uso de TDD - Desenvolvimento Dirigido a Testes, automatizados. E implementação de ferramentas de integração contínua
+
 ##### Documentação
 ID | Descrição
 ------------ | -------------
 RFN09 | Devem ser elaborados artefatos e documentos necessários para melhor compreensão dos requisitos descritos. serão elaborados antes do ciclo de desenvolvimento e devem estar abertos a participação pública* na internet
 RFN10 | A documentação dos requisitos deve acompanhar os ciclos de desenvolvimento de software (Sprints). Para servir de apoio aos integrantes da equipe, stakeholders e comunidade
+
 #### Externos
+
 ##### Econômicos
 ID | Descrição
 ------------ | -------------
 RFN11 | A aplicação não deve exigir muito dos recursos (processamento e memória) dos diversos dispositivos nos quais esteja sendo executado. (Browsers PC e mobiles, Smart TVs, app nativos iOS, Android e Win mobile)
+
 ##### Legais
 ID | Descrição
 ------------ | -------------
 RFN12 | Antes do cadastro na aplicação os usuários deverão ter disponível o **Termo de cadastro de Entidades Sociais** e **Política de Privacidade de Usuários**, a fim de garantir a responsabilidade dos mesmos com as ações realizadas na aplicação
+**[⬆ volte ao topo](#conteudo)**
 
 ### Funcionais
 Os requisitos funcionais descrevem as ações do sistema, isto é, as funções necessárias para alcançar os objetivos do sistema.
+
 #### 1º Sprint
 ID | Nome | Prioridade
 ------------ | ------------- | -------------
@@ -102,9 +114,11 @@ RF-2 | Atualizar dados do perfil da Entidade Social | Essencial
 RF-3 | Desabilitar, nunca excluir Entidade Social | Essencial
 RF-4 | Listar Entidades Sociais por filtros | Essencial
 RF-5 | Visualizar perfil da Entidade Social na íntegra | Essencial
-**[⬆ volte ao topo](#Conteúdos)**
+**[⬆ volte ao topo](#conteudo)**
+
 ##### Caso de Uso do 1º Sprint
 ![uc - Sprint 1](img/uc/uc_sprint1.png)
-**[⬆ volte ao topo](#Conteúdos)**
+**[⬆ volte ao topo](#conteudo)**
+
 ![mer - Sprint 1](img/mer/mer_sprint1.png)
-**[⬆ volte ao topo](#Conteúdos)**
+**[⬆ volte ao topo](#conteudo)**
