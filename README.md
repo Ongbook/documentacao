@@ -1,28 +1,34 @@
 # Ongbook.org - Catálogo de Entidades Sociais e suas Necessidades
-Criação social é o futuro da indústria, ainda mais quando se trata da nossa, a de software: _"bem-vindo à era das multidões! Bem-vindo à era do crowdsourcing!"_ [Endeveavor](https://endeavor.org.br/crowdsourcing/)
+Criação social é o futuro da indústria, ainda mais quando se trata da nossa, a de software: _"bem-vindo à era das multidões! Bem-vindo à era do crowdsourcing!"_ [Endeavor](https://endeavor.org.br/crowdsourcing/)
 
 >Por definição, o [crowdsourcing](https://pt.wikipedia.org/wiki/Crowdsourcing) combina os esforços de voluntários identificados ou de trabalhadores em tempo parcial, num ambiente onde cada colaborador, por sua própria iniciativa, adiciona uma pequena parte para gerar um resultado maior.
     
 Nossa documentação está aberta para acompanharem e participarem. Sua evolução será gerenciada através deste repositório (aqui mesmo!). Mais informações sobre o desenvolvimento do projeto estão disponíveis em [Ongbook.org](http://central.ongbook.org). 
 
-## <a name="topo"></a>Conteúdos
+## Conteúdos
 
-1. [Descrição do projeto](#descricao-do-projeto)
-    * [Visão geral](#visao-geral)
-    * [Objetivos](#objetivos)
-    * [Mini Mundo](#projeto-de-mini-mundo)
-1. [Documento de requisitos](documento-de-requisitos)
+1. [Descrição do projeto](#Descrição do projeto)
+    * [Visão geral](#Visão geral)
+    * [Objetivos](#Objetivos)
+1. [Mini Mundo](#projeto-de-mini-mundo)
+1. Documento de requisitos
+    * RNF - [Não Funcionais](#Requisitos)
+    * RF - [Funcionais](#Funcionais)
+        * UC - [Casos de uso](#Caso de Uso do 1º Sprint)
+        * MER - [Modelo de entidade e relacionamento]
 
-* Documentação do back-end - **<a href="https://github.com/Ongbook/api-nodejs" target="_blank">api-nodejs</a>**
-* Documentação do front-end - **<a href="https://github.com/Ongbook/consummer-angularjs" target="_blank">consummer-angularjs</a>**
-* Apresentação da iniciativa na **<a href="https://github.com/Ongbook/documentacao/wiki" target="_blank">Wiki</a>** (Associação, equipe, entre outros)
+### Externos
 
-## <a name="descricao-do-projeto"></a> Descrição do projeto
+* Documentação do back-end - **[api-nodejs](https://github.com/Ongbook/api-nodejs)**
+* Documentação do front-end - **[consummer-angularjs](https://github.com/Ongbook/consummer-angularjs)**
+* Apresentação da iniciativa na **[Wiki](https://github.com/Ongbook/documentacao/wiki)** (Associação, equipe, entre outros)
+
+## Descrição do projeto
 Como o nome já diz, _Ongbook_, Livro de ONGs. Um catálogo digital de Entidades filantrópicas. Essas Entidades poderão cadastrar suas necessidades, que por ventura venham surgir: bens materiais :jeans:, mão de obra (trabalho voluntariado :muscle:) e de recursos financeiros (doação :moneybag:). Necessidades serão objetos da aplicação, as quais poderão ser listadas por diferentes filtros (localização pela região, área de atuação, proximidades, entre outros).
 
 A aplicação é especializada em levar essas informações (_necessidades_) ao seu público-alvo (_usuários, pessoas físicas com perfis solidários_), com o objetivo de supri-las. Unindo solidários com necessitados.
 
-### <a name="visao-geral"></a>Visão geral
+### Visão geral
 
 Existe uma carência quando se trata de pessoas com perfil solidário, em manter-se atualizadas e em constante interação com causas e necessidades presentes no dia a dia de Entidades que trabalham para suprir problemas sociais em geral. Também vislumbramos a possibilidade de ajudar essas instituições do terceiro setor, oferecendo uma plataforma online.
 
@@ -36,17 +42,17 @@ Existe uma carência quando se trata de pessoas com perfil solidário, em manter
 
 #### Do processo
 - Produzir software com qualidade, junto com a comunidade;
-- Implantar metodologias ágeis nos processos e fazer o simples e necessário - **<a href="http://gettingreal.37signals.com/GR_por.php" target="_blank">Getting Real</a>**;
+- Implantar metodologias ágeis nos processos e fazer o simples e necessário - **[Getting Real](http://gettingreal.37signals.com/GR_por.php)**;
 - Gerenciar ciclo de vida da aplicação, da concepção dos requisitos ao deploy;
 - Entregar valor (funcionalidades) em cilcos, testando as hipóteses junto ao publico usuário (De um lado, os coordenadores de Entidades Sociais, no outro, usuários solidários).
 - O mais importante é uma comunicação clara, rica e colaborativa entre os integrantes da equipe, stakeholders, comunidade e usuários. Seguindo os princípios do [Manifesto Ágil](http://www.agilemanifesto.org/iso/ptbr/): *"Os processos ágeis promovem desenvolvimento sustentável"*.
 
-**[⬆ volte ao topo](#topo)**
+**[⬆ volte ao topo](#Conteúdos)**
 
 #### Projeto de Mini Mundo
 [DESCRIÇÃO]
 
-**[⬆ volte ao topo](#topo)**
+**[⬆ volte ao topo](#Conteúdos)**
 
 ## Requisitos
 ### Não funcionais
@@ -66,7 +72,7 @@ ID | Descrição
 ------------ | -------------
 RNF05 | Configuração de HTTPS, para manter um tráfego encriptado com SSL/TLS
 RNF06 | Implementar autenticação OAuth2 para requisições
-#### De processo
+##### De processo
 ID | Descrição
 ------------ | -------------
 RNF07 | Código fonte versionado com Git, exposto em repositórios no Github
@@ -96,8 +102,9 @@ RF-2 | Atualizar dados do perfil da Entidade Social | Essencial
 RF-3 | Desabilitar, nunca excluir Entidade Social | Essencial
 RF-4 | Listar Entidades Sociais por filtros | Essencial
 RF-5 | Visualizar perfil da Entidade Social na íntegra | Essencial
-**[⬆ volte ao topo](#topo)**
+**[⬆ volte ao topo](#Conteúdos)**
 ##### Caso de Uso do 1º Sprint
-![Sprint 1](uc_sprint1.png)
-**[⬆ volte ao topo](#topo)**
-
+![uc - Sprint 1](img/uc/uc_sprint1.png)
+**[⬆ volte ao topo](#Conteúdos)**
+![mer - Sprint 1](img/mer/mer_sprint1.png)
+**[⬆ volte ao topo](#Conteúdos)**
