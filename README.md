@@ -12,9 +12,9 @@ Nossa documentação está aberta para acompanharem e participarem. Sua evoluç�
     * [Objetivos](#objetivos)
 1. [Mini Mundo](#projeto-de-mini-mundo)
 1. Documento de requisitos
-    * Sprint 1
-        - [RNF](#requisitos) - Não Funcionais
-        - [RF](#funcionais) - Funcionais
+    * [RNF](#requisitos) - Não Funcionais
+    * [RF](#funcionais) - Funcionais
+        * Sprint 1
             - [UC](#uc-sp1) - Casos de uso
             - [MER](#modelo-de-entidade-e-relacionamento) - Modelo de entidade e relacionamento
 
