@@ -23,7 +23,7 @@ Mais informações sobre o desenvolvimento do projeto estão disponíveis em [Ce
 
 * Documentação do front-end - **[mvp](https://github.com/Ongbook/mvp)**
 * ~~Documentação do back-end - **[api-nodejs](https://github.com/Ongbook/ongbook-api)**~~ [pausado]
-* ~~Apresentação da iniciativa na **[Wiki](https://github.com/Ongbook/documentacao/wiki)** (Associação, equipe, entre outros)
+* ~~Apresentação da iniciativa na **[Wiki](https://github.com/Ongbook/documentacao/wiki)** (Associação, equipe, entre outros)~~
 
 ## Descricao do projeto
 Como o nome já diz, _Ongbook_, Livro de ONGs. Um catálogo digital de Entidades filantrópicas. Essas Entidades poderão cadastrar suas necessidades, que por ventura venham surgir: bens materiais :jeans:, mão de obra (trabalho voluntariado :muscle:) e de recursos financeiros :moneybag:. Necessidades serão objetos da aplicação, as quais poderão ser listadas por diferentes filtros (localização pela região, área de atuação, proximidades, entre outros).
@@ -41,8 +41,8 @@ Existe uma carência quando se trata de pessoas, em manter-se atualizadas e em i
 - Evidenciar atividades de Entidades Sociais, cadastrando e listando suas necessidades e, notificando-as às pessoas com os perfis afins;
 - Suprí-las através da interação social;
 - Promover voluntariado e incentivar solidariedade;
-- Possiblitando que mais pessoas sejam amparadas.
-- Incentivar e exercer a solidariedade, com credibilidade, de forma divertida, inovadora e tecnológica e com seriedade :pray:
+- Possiblitando que mais pessoas sejam amparadas;
+- Incentivar e exercer a solidariedade, com credibilidade, de forma divertida, inovadora e tecnológica e com seriedade. :pray:
 
 #### Do processo
 - Produzir software com qualidade, junto com a comunidade;
@@ -64,7 +64,7 @@ Uma Entidade Social cadastrada só deve aparecer na listagem após sua validaç�
 
 A filtragem da listagem deve possibilitar mais de uma categoria na escolha dos filtros (“e” e “ou”) (ex.: UF = SP e, refina mais ainda escolhendo a AREA DE ATUAÇÃO = ANIMAIS).
 
-Nessas listagens, que deverão ser apresentadas no Mapa do Google, através do alfinete que será o ícone da Área de atuação, como dito acima, ao clicar ou tocar no alfinete da Entidade Social escolhida, por padrão, surgirá um balão, primeiramente só apresentando o Nome fantasia, logomarca, cidade e título da Área de atuação. E ao clicar no nome da Entidade nesse balão, deve direcionar para página que será a visualização do perfil da Entidade Social na íntegra, com todas as informações cadastradas no site Ongbook.org.
+Nessas listagens, que deverão ser apresentadas no Mapa do Google, através do alfinete (marcador) que será o ícone da Área de atuação, como dito acima, ao clicar ou tocar no alfinete da Entidade Social escolhida, por padrão, surgirá um balão, primeiramente só apresentando o Nome fantasia, logomarca, cidade e título da Área de atuação. E ao clicar no nome da Entidade nesse balão, deve direcionar para página que será a visualização do perfil da Entidade Social na íntegra, com todas as informações cadastradas no site Ongbook.org.
 
 O perfil de uma Entidade Social também deverá ser visualizado sendo acessada diretamente pela url digitada no browser, o dominio do site acompanhado pelo nickname definido no cadastro (ex.: http://ongbook.org/ACACI).
 Ainda nessa página do perfil da Entidade Social, e de cada uma cadastrada no site, deverá constar os botões das principais redes sociais (Facebook, Twitter, Google+ e Linkedin) para serem compartilhadas, levando em consideração as meta-informações e meta-descrições, que serão planejadas e estruturadas na organização dos objetos da aplicação.
@@ -79,7 +79,7 @@ Requisitos que não correspondem de fato a uma funcionalidade da aplicação. Ta
 #### De produto
 ID | Descrição
 ------------ | -------------
-RNF01 | Deve ser desenvolvido no modelo arquitetural RESTful¹. Separando back-end (API oferecendo recursos via JSON) e front-end, consumindo esses recursos. Que também serão expostos para terceiros
+RNF01 | Deve ser desenvolvido no modelo arquitetural RESTful[¹](https://pt.wikipedia.org/wiki/REST). Separando back-end (API oferecendo recursos via JSON) e front-end, consumindo esses recursos. Que também serão expostos para terceiros
 RNF02 | Deve ser implementado com Stack MEAN (MongoDB, Express js, Angular js, Node js)
 RNF03 | Hospedado em ambiente Nginx em instancia Linux
 
