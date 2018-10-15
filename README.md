@@ -53,7 +53,7 @@ Existe uma carência quando se trata de pessoas, em manter-se atualizadas e em i
 
 **[⬆ volte ao topo](#conteudo)**
 
-#### Projeto de Mini Mundo
+## Projeto de Mini Mundo
 Um usuário solidário deseja uma aplicação web onde seja possível listar Entidades Sociais, que possibilite filtrar a listagem por Área de atuação da Entidade (ex.: Proteção de animais, crianças especiais, combate à fome, entre outros), por região (Cidade, UF, País) e próximas a ele, podendo definir o raio de circunferência (ex.: 10 Km, 20 Km), exigindo que ele autorize a aplicação saber sua geolocalização para utilizar esta funcionalidade do seu smartphone ou do browser do computador.
 
 Para uma Entidade Social aparecer na listagem do site Ongbook.org, o cadastro da mesma, deve ser feito pelo seu responsável, que optando por fazer, deverá ir até o site na seção (link) “Cadastrar Entidade Social”, e primeiramente informar seu e-mail e nome, para receber o e-mail que confirme o usuário com um link que redirecionará novamente para o site, para cadastrar os dados da Entidade Social (CPF do Responsável, CNPJ, Razão Social, Presidente respondável, logomarca, Nome fantasia, Endereço, Área de atuação*, dados para contato (e-mail, tel, site, fanpage), Proposta (máx. 200 caracteres), Objetivo (o mesmo), Atividades (o mesmo), Necessidades (um campo para cada necessidade que são, necessidade de dinheiro (semanal ou mensal), necessidade de material e insumos (semanal ou mensal), necessidade de voluntários. E também um nickname para registro de URL (que não poderá ser repetido em todo sistema, sendo único).
