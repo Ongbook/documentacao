@@ -3,7 +3,8 @@ Criação social é o futuro da indústria, ainda mais quando se trata da nossa,
 
 >Por definição, o [crowdsourcing](https://pt.wikipedia.org/wiki/Crowdsourcing) combina os esforços de voluntários identificados ou de trabalhadores em tempo parcial, num ambiente onde cada colaborador, por sua própria iniciativa, adiciona uma pequena parte para gerar um resultado maior.
     
-Nossa documentação está aberta para acompanharem e participarem. Sua evolução será gerenciada através deste repositório (aqui mesmo!). Mais informações sobre o desenvolvimento do projeto estão disponíveis em [Ongbook.org](http://central.ongbook.org). 
+Acreditando nisso, propomos desenvolver o projeto em total harmonia com a comunidade do ecossistema de desenvolvimento de software e startups, mais precisamente de impacto social. Nossa documentação está aberta para acompanharem e participarem, gerenciando através deste repositório.
+Mais informações sobre o desenvolvimento do projeto estão disponíveis em [Central Institucional - Ongbook](http://central.ongbook.org).
 
 ## Conteudo
 
@@ -20,26 +21,28 @@ Nossa documentação está aberta para acompanharem e participarem. Sua evoluç�
 
 ### Externos
 
-* Documentação do back-end - **[api-nodejs](https://github.com/Ongbook/api-nodejs)**
-* Documentação do front-end - **[consummer-angularjs](https://github.com/Ongbook/consummer-angularjs)**
-* Apresentação da iniciativa na **[Wiki](https://github.com/Ongbook/documentacao/wiki)** (Associação, equipe, entre outros)
+* Documentação do front-end - **[mvp](https://github.com/Ongbook/mvp)**
+* ~~Documentação do back-end - **[api-nodejs](https://github.com/Ongbook/ongbook-api)**~~ [pausado]
+* ~~Apresentação da iniciativa na **[Wiki](https://github.com/Ongbook/documentacao/wiki)** (Associação, equipe, entre outros)
 
 ## Descricao do projeto
-Como o nome já diz, _Ongbook_, Livro de ONGs. Um catálogo digital de Entidades filantrópicas. Essas Entidades poderão cadastrar suas necessidades, que por ventura venham surgir: bens materiais :jeans:, mão de obra (trabalho voluntariado :muscle:) e de recursos financeiros (doação :moneybag:). Necessidades serão objetos da aplicação, as quais poderão ser listadas por diferentes filtros (localização pela região, área de atuação, proximidades, entre outros).
+Como o nome já diz, _Ongbook_, Livro de ONGs. Um catálogo digital de Entidades filantrópicas. Essas Entidades poderão cadastrar suas necessidades, que por ventura venham surgir: bens materiais :jeans:, mão de obra (trabalho voluntariado :muscle:) e de recursos financeiros :moneybag:. Necessidades serão objetos da aplicação, as quais poderão ser listadas por diferentes filtros (localização pela região, área de atuação, proximidades, entre outros).
 
-A aplicação é especializada em levar essas informações (_necessidades_) ao seu público-alvo (_usuários, pessoas físicas com perfis solidários_), com o objetivo de supri-las. Unindo solidários com necessitados.
+A aplicação é especializada em levar essas informações (_necessidades cadastradas por coordenadores de Entidades Sociais_) ao seu público-alvo (_usuários, pessoas físicas com perfis solidários_), com o objetivo de supri-las. Unindo solidários com necessitados.
+A mínima ação solidária que o usuário que recebeu a notificação pode fazer, é compartilhar e divulgar para um amigo a determinada necessidade. Isso nós já consideramos uma conquista, a venda da ideia da nossa iniciativa :star:
 
 ### Visao geral
 
-Existe uma carência quando se trata de pessoas com perfil solidário, em manter-se atualizadas e em constante interação com causas e necessidades presentes no dia a dia de Entidades que trabalham para suprir problemas sociais em geral. Também vislumbramos a possibilidade de ajudar essas instituições do terceiro setor, oferecendo uma plataforma online.
+Existe uma carência quando se trata de pessoas, em manter-se atualizadas e em interação com Causas e necessidades presentes no dia a dia de Entidades que trabalham para suprir problemas sociais em geral. Também vislumbramos a possibilidade de ajudar essas instituições do terceiro setor, oferecendo uma plataforma online e inovações tecnológicas.
 
 ### Objetivos
 
 #### Do resultado
-- Evidenciar atividades de Entidades Sociais, cadastrando e listando suas necessidades;
+- Evidenciar atividades de Entidades Sociais, cadastrando e listando suas necessidades e, notificando-as às pessoas com os perfis afins;
 - Suprí-las através da interação social;
 - Promover voluntariado e incentivar solidariedade;
 - Possiblitando que mais pessoas sejam amparadas.
+- Incentivar e exercer a solidariedade, com credibilidade, de forma divertida, inovadora e tecnológica e com seriedade :pray:
 
 #### Do processo
 - Produzir software com qualidade, junto com a comunidade;
@@ -51,7 +54,20 @@ Existe uma carência quando se trata de pessoas com perfil solidário, em manter
 **[⬆ volte ao topo](#conteudo)**
 
 #### Projeto de Mini Mundo
-[DESCRIÇÃO]
+Um usuário solidário deseja uma aplicação web onde seja possível listar Entidades Sociais, que possibilite filtrar a listagem por Área de atuação da Entidade (ex.: Proteção de animais, crianças especiais, combate à fome, entre outros), por região (Cidade, UF, País) e próximas a ele, podendo definir o raio de circunferência (ex.: 10 Km, 20 Km), exigindo que ele autorize a aplicação saber sua geolocalização para utilizar esta funcionalidade do seu smartphone ou do browser do computador.
+
+Para uma Entidade Social aparecer na listagem do site Ongbook.org, o cadastro da mesma, deve ser feito pelo seu responsável, que optando por fazer, deverá ir até o site na seção (link) “Cadastrar Entidade Social”, e primeiramente informar seu e-mail e nome, para receber o e-mail que confirme o usuário com um link que redirecionará novamente para o site, para cadastrar os dados da Entidade Social (CPF do Responsável, CNPJ, Razão Social, Presidente respondável, logomarca, Nome fantasia, Endereço, Área de atuação*, dados para contato (e-mail, tel, site, fanpage), Proposta (máx. 200 caracteres), Objetivo (o mesmo), Atividades (o mesmo), Necessidades (um campo para cada necessidade que são, necessidade de dinheiro (semanal ou mensal), necessidade de material e insumos (semanal ou mensal), necessidade de voluntários. E também um nickname para registro de URL (que não poderá ser repetido em todo sistema, sendo único).
+
+Uma Entidade Social cadastrada só deve aparecer na listagem após sua validação, que é a confirmação de seu CNPJ (Cadastro Nacional de Pessoa Jurídica). O responsável pela Entidade Social ainda deve ter a possibilidade de EDITAR (menos o cnpj) e DESABILITAR o cadastro da mesma no site, nunca excluir.
+
+*As Áreas de atuação devem ficar numa tabela exclusiva para elas. Cada Área de atuação, alem do código, terá um título, descrição e uma imagem (ícone) para melhor identificá-las e também estilizar e caracterizar em virtude da Experiência de Usuário (UX) no uso do site. A listagem deve ser feita com a integração do Google Maps, sendo que cada Entidade Social será representada no mapa pelo alfinete estilizado com o ícone da categoria (Área de atuação), marcando sua geolocalização conforme seu endereço.
+
+A filtragem da listagem deve possibilitar mais de uma categoria na escolha dos filtros (“e” e “ou”) (ex.: UF = SP e, refina mais ainda escolhendo a AREA DE ATUAÇÃO = ANIMAIS).
+
+Nessas listagens, que deverão ser apresentadas no Mapa do Google, através do alfinete que será o ícone da Área de atuação, como dito acima, ao clicar ou tocar no alfinete da Entidade Social escolhida, por padrão, surgirá um balão, primeiramente só apresentando o Nome fantasia, logomarca, cidade e título da Área de atuação. E ao clicar no nome da Entidade nesse balão, deve direcionar para página que será a visualização do perfil da Entidade Social na íntegra, com todas as informações cadastradas no site Ongbook.org.
+
+O perfil de uma Entidade Social também deverá ser visualizado sendo acessada diretamente pela url digitada no browser, o dominio do site acompanhado pelo nickname definido no cadastro (ex.: http://ongbook.org/ACACI).
+Ainda nessa página do perfil da Entidade Social, e de cada uma cadastrada no site, deverá constar os botões das principais redes sociais (Facebook, Twitter, Google+ e Linkedin) para serem compartilhadas, levando em consideração as meta-informações e meta-descrições, que serão planejadas e estruturadas na organização dos objetos da aplicação.
 
 **[⬆ volte ao topo](#conteudo)**
 
@@ -101,6 +117,7 @@ RFN11 | A aplicação não deve exigir muito dos recursos (processamento e memó
 ID | Descrição
 ------------ | -------------
 RFN12 | Antes do cadastro na aplicação os usuários deverão ter disponível o **Termo de cadastro de Entidades Sociais** e **Política de Privacidade de Usuários**, a fim de garantir a responsabilidade dos mesmos com as ações realizadas na aplicação
+
 **[⬆ volte ao topo](#conteudo)**
 
 ### Funcionais
@@ -114,6 +131,7 @@ RF-2 | Atualizar dados do perfil da Entidade Social | Essencial
 RF-3 | Desabilitar, nunca excluir Entidade Social | Essencial
 RF-4 | Listar Entidades Sociais por filtros | Essencial
 RF-5 | Visualizar perfil da Entidade Social na íntegra | Essencial
+
 **[⬆ volte ao topo](#conteudo)**
 
 ##### <a name="uc-sp1"></a>Caso de Uso do 1º Sprint
